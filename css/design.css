@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#clock {
+    font-family: 'Cafe24Ssurround';
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+
+body {
+    background-color: rgb(158, 215, 223);
+}
+
+input[type="text"]+input[type="submit"] {
+    background-color: rgb(189, 189, 189);
+    border: none;
+    border-radius: 30px;
+    padding: 5px 7px;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    color: white;
+    text-align: center;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    color: coral;
+}
+
+#todo-form {
+    margin: auto;
+    text-align: center;
+}
+
+#todolist {
+    margin: auto; 
+    max-width: 250px;
+    margin-top: 100px;
+    padding: 0 30px;
+    list-style-type: none;
+}
+
+#todolist li {
+    clear: both;
+    margin: 5px 0;
+    border-bottom: 1px white solid;
+}
+
+#todolist li button {
+    float: right;
+}
+
+#todolist li button {
+    border-radius: 10px;
+    cursor: pointer;
+    border: rgb(190, 190, 190);
+}
